@@ -1,0 +1,16 @@
+{
+    "contents" : "makeCacheMatrix <- function(x = matrix()) {\n  m <- NULL\n  set <- function(y) {\n    x <<- y\n    m <<- NULL\n  }\n  get <- function() x\n  setinverse <- function(inverse) m <<- inverse\n  getinverse <- function() m\n  list(set = set, get = get,\n       setinverse = setinverse,\n       getinverse = getinverse)\n}\n",
+    "created" : 1416245266576.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2621739479",
+    "id" : "6921B7BC",
+    "lastKnownWriteTime" : 1416244151,
+    "path" : "~/R/makeCacheMatrix.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
